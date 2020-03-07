@@ -1,0 +1,4 @@
+AuthName Pleaseentername
+AuthType Basic
+AuthUserFile /home/users/web/b1464/hy.anniebee/restricted/.htpasswd
+require valid-user

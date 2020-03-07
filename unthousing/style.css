@@ -1,0 +1,80 @@
+body {
+	background-color: white;
+	font-family: verdana, sans serif;
+	font-size: 10pt;
+	margin: 0px;
+}
+
+div {
+	background-color: #C9E1CB;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+div.left {
+	border-right: 0px;
+}
+
+div.right {
+	border-left: 0px;
+}
+
+
+table {
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	border-collapse: collapse;
+}
+
+
+table.topbar {
+	width: 100%;
+}
+table.topbar td.topleft {
+	padding: 15px 0px 15px 15px;
+	width: 150px;
+	background-image: url("navside.gif");
+}
+table.topbar td.topleft div {
+	height: 100px;
+	width: 150px;
+}
+table.topbar td.topright {
+	padding: 15px 15px 15px 0px;
+}
+table.topbar td.topright div {
+	height: 100px;
+	text-align: right;
+}
+
+td {
+	font-size: 10pt;
+}
+table.main {
+	width: 100%;
+}
+table.main td {
+	padding: 0px;
+}
+table.main table.nav td.navleftpad {
+	height: 15px;
+	background-image: url("navside.gif");
+}
+table.main table.nav td.navextpad {
+	width: 15px;
+	height: 15px;
+}
+table.main table.nav td.navleft {
+	padding: 0px 0px 0px 15px;
+	background-image: url("navside.gif");
+}
+table.main table.nav td.navleft div {
+	width: 150px;
+}
+table.main table.nav td.navext {
+	padding: 0px;
+}
+table.main table.nav td.navext div {
+	height: 100%;
+}
